@@ -10,14 +10,18 @@ En esta versión, se modifica la gramática para **alterar la precedencia y la a
    - Ahora `+` y `-` tienen **mayor precedencia** que `*` y `/`.  
    - Esto significa que primero se evalúan sumas/restas antes que multiplicaciones/divisiones.
 
-   Ejemplo:
+Ejemplo:
+
 3 + 4 * 2
 Original: 3 + (4 * 2) = 11
 Rediseñada: (3 + 4) * 2 = 14
 
+---
+
 2. **Cambio en asociatividad del operador `^`:**
 - Original: `^` era asociativo a la **derecha**.  
 - Rediseñada: `^` es asociativo a la **izquierda**.  
+
 
 Ejemplo:
 2 ^ 3 ^ 2
@@ -25,7 +29,7 @@ Original: 2 ^ (3 ^ 2) = 512
 Rediseñada: (2 ^ 3) ^ 2 = 64
 ---
 
-## ▶Ejecución
+## Ejecución
 
 1. Generar archivos de ANTLR:
 ```bash
