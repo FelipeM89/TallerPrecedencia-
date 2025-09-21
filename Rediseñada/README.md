@@ -13,7 +13,9 @@ En esta versión, se modifica la gramática para **alterar la precedencia y la a
 Ejemplo:
 
 3 + 4 * 2
+
 Original: 3 + (4 * 2) = 11
+
 Rediseñada: (3 + 4) * 2 = 14
 
 ---
@@ -24,9 +26,13 @@ Rediseñada: (3 + 4) * 2 = 14
 
 
 Ejemplo:
+
 2 ^ 3 ^ 2
+
 Original: 2 ^ (3 ^ 2) = 512
+
 Rediseñada: (2 ^ 3) ^ 2 = 64
+
 ---
 
 ## Ejecución
