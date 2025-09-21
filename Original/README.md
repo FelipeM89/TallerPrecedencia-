@@ -45,7 +45,8 @@ antlr4 -Dlanguage=Python3 -visitor Calculadora.g4
 python eval_calculadora.py < pruebas.txt
 ```
 ## Resultados 
-<img width="764" height="485" alt="image" src="https://github.com/user-attachments/assets/c3f2e240-d0a3-48e5-9a21-61ef3df3be27" />
+<img width="610" height="476" alt="image" src="https://github.com/user-attachments/assets/6bdc8072-7e7e-4495-be56-c6093c836b06" />
+
 
 
 
